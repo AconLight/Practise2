@@ -9,13 +9,25 @@ public class App
     public static void main( String[] args )
     {
         Boolean isUnder18Var;
-        isUnder18Var = isUnderAge(7, true);
+        isUnder18Var = isUnderAge(19, true);
         System.out.println(isUnder18Var);
+        isUnder18Var = isUnderAge(17, true);
+        System.out.println(isUnder18Var);
+        isUnder18Var = isUnderAge(30, false);
+        System.out.println(isUnder18Var);
+        isUnder18Var = isUnderAge(19, false);
+        System.out.println(isUnder18Var);
+
     }
 
     public static Boolean isUnderAge(int age, Boolean isFromWisconsin) {
         if (isFromWisconsin) {
-            // sth here
+            if (age < 18) {
+                return true;
+            }
+            else {
+                return false;
+            }
         }
         if (age < 21) {
             return true;
