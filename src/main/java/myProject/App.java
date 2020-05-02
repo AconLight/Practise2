@@ -35,4 +35,15 @@ public class App
             return false;
         }
     }
+
+    public static int function (int x) {
+        return x * 2;
+    }
+    public static int sum (int x, int y) {
+        return x + y;
+    }
+    public static int div (int x, int y) {
+        return x/y;
+    }
+
 }

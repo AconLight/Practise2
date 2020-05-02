@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59c4f74-2b4f-4c87-9893-0691a628357d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/myProject/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myProject/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myProject/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myProject/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.AppTest.testdiv">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -96,6 +96,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testdiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practise2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myProject" />
+      <option name="MAIN_CLASS_NAME" value="myProject.AppTest" />
+      <option name="METHOD_NAME" value="testdiv" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testfunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practise2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myProject" />
+      <option name="MAIN_CLASS_NAME" value="myProject.AppTest" />
+      <option name="METHOD_NAME" value="testfunction" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testsum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practise2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myProject" />
+      <option name="MAIN_CLASS_NAME" value="myProject.AppTest" />
+      <option name="METHOD_NAME" value="testsum" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -158,9 +209,15 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.AppTest.testApp" />
+      <item itemvalue="JUnit.AppTest.testfunction" />
+      <item itemvalue="JUnit.AppTest.testsum" />
+      <item itemvalue="JUnit.AppTest.testdiv" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testdiv" />
+        <item itemvalue="JUnit.AppTest.testsum" />
+        <item itemvalue="JUnit.AppTest.testfunction" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.testApp" />
       </list>
@@ -179,35 +236,31 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="AppTest_testApp - 2020.05.02 at 23h 06m 48s.xml">
-      <configuration name="AppTest.testApp" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testApp - 2020.05.02 at 23h 06m 59s.xml">
-      <configuration name="AppTest.testApp" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1588457216158">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1588461645034">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588457216158" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1588457216157">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588461645034" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1588461645033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588457216157" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1588457216157">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588461645033" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1588461645033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588457216157" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1588457216158">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588461645033" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1588461645033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588457216158" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588461645033" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1588456418803">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588456418803" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1588458634615">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1588458634615" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
